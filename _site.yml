@@ -1,0 +1,10 @@
+name: "biostatblog"
+title: "My Blog"
+description: |
+  My Blog
+output_dir: "docs"
+navbar:
+  right:
+    - text: "BiostatLab Home"
+      href: https://dghi-biostat.github.io/biostatlab/
+output: distill::distill_article
